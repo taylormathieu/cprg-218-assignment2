@@ -146,21 +146,43 @@
             
 
         }
+
     
         figure{
             border:white solid;
             background-color:white;
             
         }
+
+        figure:last-child{
+            grid-column:span 2; 
+            
+          }
         
         main img{
             border-bottom:10px solid #97bf04;
             max-width:100%;
         }
 
-        
+        footer{
+            background-color:#d9043d;
+        padding:30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:white;
+        text-align:center;
+        }
 
-    }
+      
+
+       
+
+        
+        }
+
+
+
+    
 
 
 
